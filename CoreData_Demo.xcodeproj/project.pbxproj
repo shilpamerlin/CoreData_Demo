@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D7A4F1926ACBF0A005A51A6 /* Family+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A4F1526ACBF0A005A51A6 /* Family+CoreDataClass.swift */; };
+		8D7A4F1A26ACBF0A005A51A6 /* Family+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A4F1626ACBF0A005A51A6 /* Family+CoreDataProperties.swift */; };
+		8D7A4F1B26ACBF0A005A51A6 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A4F1726ACBF0A005A51A6 /* Person+CoreDataClass.swift */; };
+		8D7A4F1C26ACBF0A005A51A6 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A4F1826ACBF0A005A51A6 /* Person+CoreDataProperties.swift */; };
 		8DA3DF1C26AC7EBE009ACB14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA3DF1B26AC7EBE009ACB14 /* AppDelegate.swift */; };
 		8DA3DF1E26AC7EBE009ACB14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA3DF1D26AC7EBE009ACB14 /* SceneDelegate.swift */; };
 		8DA3DF2026AC7EBE009ACB14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA3DF1F26AC7EBE009ACB14 /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D7A4F1526ACBF0A005A51A6 /* Family+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8D7A4F1626ACBF0A005A51A6 /* Family+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8D7A4F1726ACBF0A005A51A6 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8D7A4F1826ACBF0A005A51A6 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8DA3DF1826AC7EBE009ACB14 /* CoreData_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA3DF1B26AC7EBE009ACB14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA3DF1D26AC7EBE009ACB14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +66,7 @@
 		8DA3DF1A26AC7EBE009ACB14 /* CoreData_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				8DA3DF3626AC98BA009ACB14 /* Model */,
 				8DA3DF1B26AC7EBE009ACB14 /* AppDelegate.swift */,
 				8DA3DF1D26AC7EBE009ACB14 /* SceneDelegate.swift */,
 				8DA3DF1F26AC7EBE009ACB14 /* ViewController.swift */,
@@ -68,6 +77,17 @@
 				8DA3DF2426AC7EBE009ACB14 /* CoreData_Demo.xcdatamodeld */,
 			);
 			path = CoreData_Demo;
+			sourceTree = "<group>";
+		};
+		8DA3DF3626AC98BA009ACB14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D7A4F1526ACBF0A005A51A6 /* Family+CoreDataClass.swift */,
+				8D7A4F1626ACBF0A005A51A6 /* Family+CoreDataProperties.swift */,
+				8D7A4F1726ACBF0A005A51A6 /* Person+CoreDataClass.swift */,
+				8D7A4F1826ACBF0A005A51A6 /* Person+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA3DF2026AC7EBE009ACB14 /* ViewController.swift in Sources */,
+				8D7A4F1B26ACBF0A005A51A6 /* Person+CoreDataClass.swift in Sources */,
+				8D7A4F1926ACBF0A005A51A6 /* Family+CoreDataClass.swift in Sources */,
 				8DA3DF2626AC7EBE009ACB14 /* CoreData_Demo.xcdatamodeld in Sources */,
+				8D7A4F1C26ACBF0A005A51A6 /* Person+CoreDataProperties.swift in Sources */,
+				8D7A4F1A26ACBF0A005A51A6 /* Family+CoreDataProperties.swift in Sources */,
 				8DA3DF1C26AC7EBE009ACB14 /* AppDelegate.swift in Sources */,
 				8DA3DF1E26AC7EBE009ACB14 /* SceneDelegate.swift in Sources */,
 			);
